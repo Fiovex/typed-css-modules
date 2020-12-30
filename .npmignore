@@ -1,0 +1,12 @@
+# ignore everything
+*
+
+# include these:
+!/lib/**/*
+!LICENSE.md
+!README.md
+!.prettierrc
+!.eslintrc
+
+# exclude hidden files from the includes:
+.*
