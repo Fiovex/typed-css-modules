@@ -51,7 +51,7 @@ export class DtsContent {
                 'declare const styles: {',
                 ...this.resultList.map(line => '  ' + line),
                 '};',
-                'export default styles;',
+                'export = styles;',
                 '',
             ].join(os.EOL) + this.EOL
         );

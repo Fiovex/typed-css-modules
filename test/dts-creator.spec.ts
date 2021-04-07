@@ -136,7 +136,7 @@ describe('DtsContent', () => {
 declare const styles: {
   readonly "myClass": string;
 };
-export default styles;
+export = styles;
 
 `,
                 );
@@ -162,7 +162,7 @@ export default styles;
 declare const styles: {
   readonly "myClass": string;
 };
-export default styles;
+export = styles;
 
 `,
                         );
@@ -180,7 +180,7 @@ export default styles;
 declare const styles: {
   readonly "myClass": string;
 };
-export default styles;
+export = styles;
 
 `,
                         );
@@ -198,7 +198,7 @@ export default styles;
 declare const styles: {
   readonly "MyClass": string;
 };
-export default styles;
+export = styles;
 
 `,
                         );
